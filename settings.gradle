@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "TodoApp-MVVM-Room-LiveData-ViewModel-Coroutine"

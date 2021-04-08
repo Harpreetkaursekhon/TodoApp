@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardMaxElevation="8dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/shape_raw"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:hint="Your note"
+            android:layout_margin="5dp"
+            android:textColorHint="#fff"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#fff"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/body"
+            android:layout_width="match_parent"
+            android:hint="Body"
+            android:textColorHint="#fff"
+            android:layout_margin="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#fff"
+            android:minLines="2"
+            android:maxLines="10"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_margin="5dp"
+            android:text="Save"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:background="@drawable/shape_raw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
